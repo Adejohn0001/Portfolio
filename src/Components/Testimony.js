@@ -15,7 +15,7 @@ const Testimony = () => {
             <img src={Testifier} alt="" />
             <h4>Makinde Martins</h4>
             <p>
-              Seyi gets things done. He's very passionate about what he does and
+              Oluwapelumi gets things done. He's very passionate about what he does and
               he's always fun to be with.
             </p>
           </div>

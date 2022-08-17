@@ -90,8 +90,8 @@ const Skills = () => {
             </div>
 
             <div className="value">
-              <h3 className="text-p"> React </h3>
-              <meter className="meter-6" value={0.9}></meter>
+              <h3 className="text-p"> Bootstrap </h3>
+              <meter className="meter-6" value={0.7}></meter>
             </div>
           </div>
         </div>

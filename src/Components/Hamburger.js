@@ -26,7 +26,7 @@ div{
  transform-origin: 1px;
  transition: all 0.5s linear;
 
- &:nth-child(1) {
+ //&:nth-child(1) {
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'}
  }
  &:nth-child(2) {

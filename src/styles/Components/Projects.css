@@ -56,6 +56,44 @@
       .items{
         width: 90%;
       }
+
+      .item1 {
+        background-color: #2351DC;
+        grid-area: a;
+        padding: 20px 20px 200px;
+    }
+      
+      .item2 {
+        background-color: #0DC397;
+        grid-area: b;
+        padding: 20px 20px 40px;
+      }
+      
+      .item3 {
+        background-color: rgb(5, 5, 39);
+        grid-area: c;
+        padding: 20px 20px 50px;
+      }
+      
+      .item4 {
+        background-color: #2351DC;;
+        grid-area: d;
+        padding: 20px 20px 170px;
+      }
+    
+      .item5 {
+        background-color: #1C41B0;;
+        grid-area: e;
+        padding: 20px 20px 100px;
+      }
+    
+      .item6 {
+        background-color:  #2351DC;;
+        grid-area: f;
+        padding: 20px 20px 80px;
+      } 
+
+
     }
     @media (max-width: 418px) {
       .items{

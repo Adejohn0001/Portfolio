@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-   color: #2351DC;
+  border-bottom: 2px solid #2351DC;
    font-weight: 700;
 }
 

@@ -1,13 +1,8 @@
 import React from 'react'
 import {
   BrowserRouter as Router,
-  Routes,
-  Route, 
   Link 
 } from 'react-router-dom';
-import Services from '../../src/Components/Services'
-import Header from '../../src/Components/Header'
-import GetInTouch from '../../src/Components/GetInTouch'
 
 import styled from 'styled-components'
 
@@ -66,13 +61,7 @@ const RigntNav = ({ open }) => {
         <li> <Link to="/Project"> Projects </Link> </li>
         <li> <Link to="/GetInTouch" >  Contact Me </Link> </li>
      </UlStyled>
-
-     <Routes>
-      <Route exact path ='/' element={<Header />}></Route>
-      <Route exact path ='/Services' element={<Services />}></Route>
-     <Route exact path ='/GetInTouch' element={<GetInTouch />}></Route>
-     </Routes>
-    </Router>
+ </Router>
   )
 }
 

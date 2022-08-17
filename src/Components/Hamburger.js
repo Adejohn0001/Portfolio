@@ -4,6 +4,9 @@ import RigntNav from './RigntNav'
 import styled from 'styled-components'
 
 const StyledBurger = styled.div`
+display:none;
+
+@media (max-width: 768px) {
 width: 2rem;
 height: 2rem;
 position: fixed;
@@ -34,6 +37,8 @@ div{
     transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'}
  }
 }
+}
+
 `
 
 

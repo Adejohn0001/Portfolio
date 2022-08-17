@@ -67,6 +67,12 @@ color: #000000;
         height: 100vh;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 11rem;
+    } 
+}
 @media (max-width: 658px) {
     .container {
         display: flex;

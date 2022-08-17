@@ -1,4 +1,13 @@
 import React from 'react'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route, 
+  Link 
+} from 'react-router-dom';
+import Services from '../../src/Components/Services'
+import Header from '../../src/Components/Header'
+import GetInTouch from '../../src/Components/GetInTouch'
 
 import styled from 'styled-components'
 
@@ -26,14 +35,13 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    display: none;
     flex-flow: column nowrap;
     background-color: black;
     justify-content: center;
     place-items: center;
     position: fixed;
-    transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'}
-    width: 40%;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    width: 80%;
     top: 0;
     right: 0;
     padding: 3.5rem;
@@ -44,18 +52,27 @@ li {
 } 
 a{
     color: aliceblue;
+    font-size:12px;
 }
 }
 `
 
 const RigntNav = ({ open }) => {
   return (
-    <UlStyled open={open}>
-        <li><a href={'AboutUs'}> About Me </a></li>
-        <li><a href={'Services'}> Services</a></li>
-        <li><a href={'Project'}> Projects </a></li>
-        <li><a href={'ContactMe'}> Contact Me </a></li>
-    </UlStyled>
+    <Router>
+     <UlStyled open={open}>
+        <li> <Link to="/"> About Me  </Link> </li>
+        <li> <Link to="/Services">  Services </Link> </li>
+        <li> <Link to="/Project"> Projects </Link> </li>
+        <li> <Link to="/GetInTouch" >  Contact Me </Link> </li>
+     </UlStyled>
+
+     <Routes>
+      <Route exact path ='/' element={<Header />}></Route>
+      <Route exact path ='/Services' element={<Services />}></Route>
+     <Route exact path ='/GetInTouch' element={<GetInTouch />}></Route>
+     </Routes>
+    </Router>
   )
 }
 

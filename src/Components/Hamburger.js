@@ -24,9 +24,9 @@ div{
  height: 0.25rem;
  border-radius: 10px;
  transform-origin: 1px;
- transition: all 0.5s linear;
+ transition: all 0.3s linear;
 
- //&:nth-child(1) {
+ &:nth-child(1) {
     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'}
  }
  &:nth-child(2) {
@@ -58,4 +58,4 @@ const Hamburger = () => {
   )
 }
 
-export default Hamburger
+export default Hamburger  

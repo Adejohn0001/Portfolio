@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.skill-set{
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 196px;
+}
+.skills h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.skills p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+.value{
+    margin-left: 2rem;
+}
+.meter-1{
+    width: 300%;
+}
+.meter-2{
+    width: 210%;
+}
+.meter-3{
+    width: 385%;
+}
+.meter-4{
+    width: 355%;
+}
+.meter-5{
+    width: 585%;
+}
+.meter-6{
+    width: 390%;
+}
+.text-p{
+    margin-top: 1rem;
+}
+.python{
+    display: flex;
+    margin: 1.5rem 0rem;
+}
+.mySkills{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+@media (max-width: 864px) {
+    .value{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 756px) {
+    .mySkills{
+        flex-direction: column;
+        justify-content: none;
+        width: 70%;
+    }
+    .value{
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 644px) {
+    .skill-set{
+        width: 97%;
+    }
+    .value{
+        margin-left: 0.5rem;
+    }
+}

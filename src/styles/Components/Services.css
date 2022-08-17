@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.services {
+  display: flex;
+  flex-direction: column;
+  background: #fbfcfe;
+  padding: 70px;
+}
+.services-i-rendered {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.lorem {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  width: 43%;
+}
+.container-one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 3rem;
+}
+.container-two {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 4rem;
+}
+.web-development {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.web-development h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-top: 10px;
+}
+.web-development p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #4d4d4d;
+  margin-top: 10px;
+}
+
+@media (max-width: 710px) {
+  .services {
+    padding: 50px;
+  }  
+
+  .lorem {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+    width: 80%;
+  }
+}
+@media (max-width: 644px) {
+  .services {
+    padding: 90px 35px;
+  }
+  .container-one {
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .container-two {
+    flex-direction: column;
+    margin-top: 0rem;
+  }  
+
+  .web-development {
+    margin-top: 4rem;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 418px) {
+  .services {
+    padding: 90px 28px;
+  }
+}

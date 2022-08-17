@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    flex-wrap: wrap;
+}
+span{
+    color: #2351DC;;
+}
+@media (max-width: 768px) {
+    .media{
+        display: none;
+    }
+}

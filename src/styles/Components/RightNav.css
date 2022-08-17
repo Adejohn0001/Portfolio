@@ -1,0 +1,44 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-left: 2rem;
+}
+
+ul li a:hover {
+    color: #2351DC;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    ul {
+        display: none;
+        flex-flow: column nowrap;
+        background-color: black;
+        justify-content: center;
+        place-items: center;
+        position: fixed;
+        width: 40%;
+        top: 0;
+        right: 0;
+        padding: 3.5rem;
+        transition: transform 0.3s ease-in-out;
+    }  
+    ul li {
+        padding: 20px 30px 20px 0px;
+    } 
+    ul li a{
+        color: aliceblue;
+    }
+}

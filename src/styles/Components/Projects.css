@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.items{
+    display: grid;
+    grid-template-areas: 
+    "a b b"
+    "a c d "
+    "e e d"
+    "e e f"
+    ;
+    gap: 10px;
+    width: 87%;
+    margin: 0 auto;
+    padding: 95px 0px;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  
+  .item1 {
+      background-color: #2351DC;
+      grid-area: a;
+      padding: 20px 20px 470px;
+  }
+    
+    .item2 {
+      background-color: #0DC397;
+      grid-area: b;
+      padding: 20px 20px 40px;
+    }
+    
+    .item3 {
+      background-color: rgb(5, 5, 39);
+      grid-area: c;
+      padding: 20px 20px 50px;
+    }
+    
+    .item4 {
+      background-color: #2351DC;;
+      grid-area: d;
+      padding: 20px 20px 260px;
+    }
+  
+    .item5 {
+      background-color: #1C41B0;;
+      grid-area: e;
+      padding: 20px 20px 170px;
+    }
+  
+    .item6 {
+      background-color:  #2351DC;;
+      grid-area: f;
+      padding: 20px 20px 170px;
+    }
+
+    @media (max-width: 644px) {
+      .items{
+        width: 90%;
+      }
+    }
+    @media (max-width: 418px) {
+      .items{
+        width: 100%;
+      }
+    }

@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.get-in-touch {
+  display: flex;
+  padding-left: 75px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.in-touch {
+  margin-top: 4rem;
+  flex: 40%;
+}
+.in-touch .bold {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.in-touch .not-bold {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  padding-right: 200px;
+  color: #000000;
+}
+.socials-media {
+  display: flex;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-top: 0.5rem;
+}
+.socials-media p {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.message {
+  display: flex;
+  margin-top: 2.5rem;
+}
+.message2 {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.message h6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 1rem;
+}
+.message p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 1rem;
+
+  color: #737373;
+}
+.message2 h6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 1rem;
+}
+.message2 p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 1rem;
+  color: #737373;
+}
+.form {
+  background: #1c41b0;
+  flex: 30%;
+}
+.form-body {
+  padding: 50px;
+  padding-right: 80px;
+}
+.form p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+.form h5 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: white;
+}
+form {
+  margin-top: 2rem;
+}
+input {
+  background-color: #1c41b0;
+  border: none;
+  border-bottom: 1px solid white;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+input:focus {outline:none!important;}
+label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.input-message {
+  margin-top: 1.5rem;
+}
+button {
+  box-sizing: border-box;
+  width: 203px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+.send {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #2351dc;
+  text-decoration: none;
+  text-align: center;
+}
+button:hover{
+  box-sizing: border-box;
+  width: 203px;
+  height: 55px;
+  background:  #1c41b0;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+}
+.send:hover{
+  color: #ffffff;
+}
+
+@media (max-width: 644px) {
+  .in-touch {
+    flex: 100%;
+  }  
+
+  .in-touch .not-bold {
+    padding-right: 70px;
+  }
+
+  .form {
+    background: #1c41b0;
+    flex: 100%;
+    margin-top: 2rem;
+  }
+  .get-in-touch {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 418px) {
+  .get-in-touch {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+  } 
+}

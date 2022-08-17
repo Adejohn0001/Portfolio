@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.testimony {
+  display: flex;
+  width: 100%;
+}
+.testimonies {
+  background: #1c41b0;
+  padding: 300px 70px;
+  flex: 30%;
+  width: 40%;
+}
+.testimonies h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 63px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.people-testimony {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  padding: 70px;
+  margin: 0 auto;
+  width: 100%;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.container1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+.container2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+}
+.container1 p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #24292e;
+}
+
+.container2 p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #24292e;
+}
+
+.container1 h4 {
+  font-family: "Manrope";
+  text-align: center;
+  margin: 0.8rem 0rem 1rem;
+}
+.container2 h4 {
+  text-align: center;
+  margin: 0.8rem 0rem 1rem;
+  font-family: "Manrope";
+}
+.testifier1:hover,
+.testifier2:hover,
+.testifier3:hover,
+.testifier4:hover {
+  background-color:#ffffff ;
+  box-shadow: 20px 20px 50px 10px  #1c41b0  inset;
+  padding: 20px 0px;
+}
+
+@media (max-width: 1030px) {
+  .testimonies {
+    background: #1c41b0;
+    padding: 200px 20px;
+    flex: 40%;
+    width: 50%;
+  }
+
+  .testimonies h4 {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 1010px){
+
+  .testimonies {
+    background: #1c41b0;
+    flex: 40%;
+    width: 100%;
+  }
+  .container1 {
+    flex-direction: column;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .testifier1, .testifier3 {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 644px) {
+  .testimony {
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonies {
+    padding: 100px 0px;
+    text-align: center;
+    flex: 100%;
+    width: 100%;
+  }
+  .people-testimony {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonies {
+    background: #1c41b0;
+    padding: 200px 0px;
+    flex: 40%;
+    width: 100%;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 418px) {
+  .testimonies h4 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+}
